@@ -18,10 +18,10 @@ import {
 const whatsappNumber = ((import.meta.env.VITE_WHATSAPP_NUMBER as string | undefined) || '244951471020').replace(/\D/g, '');
 const whatsappText = encodeURIComponent('Olá, quero conhecer a pré-venda do AvaliPed.');
 
-function WhatsAppLink({ children, className = '', onClick }: { children: ReactNode; className: string; onClick: () => void }) {
-  const href = whatsappNumber  `https://wa.me/${whatsappNumber}text=${whatsappText}` : '#pre-venda';
+function WhatsAppLink({ children, className = '', onClick }: { children: ReactNode; className?: string; onClick?: () => void }) {
+  const href = whatsappNumber ? `https://wa.me/${whatsappNumber}?text=${whatsappText}` : '#pre-venda';
   return (
-    <a href={href} className={className} onClick={onClick} target={whatsappNumber  '_blank' : undefined} rel="noreferrer">
+    <a href={href} className={className} onClick={onClick} target={whatsappNumber ? '_blank' : undefined} rel="noreferrer">
       {children}
     </a>
   );
@@ -40,9 +40,9 @@ export function LandingPage() {
           <span><strong>Avali</strong>Ped<small>Gestão avaliativa</small></span>
         </a>
         <button className="landing-menu-button" type="button" aria-label="Abrir menu" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen  <X size={22} /> : <Menu size={22} />}
+          {menuOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
-        <div className={`landing-nav-links ${menuOpen  'is-open' : ''}`}>
+        <div className={`landing-nav-links ${menuOpen ? 'is-open' : ''}`}>
           <a href="#solucoes" onClick={closeMenu}>Soluções</a>
           <a href="#como-funciona" onClick={closeMenu}>Como funciona</a>
           <a href="#precos" onClick={closeMenu}>Preços</a>
