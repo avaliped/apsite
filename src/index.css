@@ -1,6 +1,6 @@
-﻿
+
 /* =========================================================================
-   Landing page comercial â€” identidade AvaliPed (azul do AppShell + slate)
+   Landing page comercial — identidade AvaliPed (azul do AppShell + slate)
    ========================================================================= */
 .landing-page { --lp-blue: #0756b8; --lp-blue-dark: #07356f; --lp-ink: #0c1f3d; --lp-muted: #62738d; --lp-line: #dbe5f2; background: #fff; color: var(--lp-ink); min-height: 100vh; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow: hidden; }
 .landing-container { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
@@ -14,7 +14,7 @@
 .landing-section { padding-top: 120px; padding-bottom: 120px; }.landing-section-heading { display: grid; grid-template-columns: 1fr 350px; gap: 60px; align-items: end; margin-bottom: 52px; }.landing-section h2,.landing-centered-heading h2,.landing-faq-layout h2 { font-size: clamp(35px, 4vw, 53px); line-height: 1.05; letter-spacing: -.065em; margin: 15px 0 0; }.landing-section-heading p,.landing-centered-heading p,.landing-faq-layout p { color: var(--lp-muted); line-height: 1.7; font-size: 15px; margin: 0; }.landing-solution-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }.landing-solution-card { padding: 38px; border-radius: 15px; min-height: 355px; position: relative; overflow: hidden; }.solution-teacher { background: #eaf3ff; }.solution-rp { background: #eef8f5; }.solution-icon { background: white; color: var(--lp-blue); width: 45px; height: 45px; display: grid; place-items: center; border-radius: 12px; margin-bottom: 27px; box-shadow: 0 8px 20px #0d477c0d; }.solution-rp .solution-icon { color: #0a9b6e; }.solution-label { color: #6f83a0; text-transform: uppercase; letter-spacing: .12em; font-weight: 800; font-size: 10px; }.landing-solution-card h3 { font-size: 25px; letter-spacing: -.045em; margin: 10px 0; }.landing-solution-card p { max-width: 420px; color: #5f7290; line-height: 1.6; font-size: 13px; }.landing-solution-card ul,.landing-price-card ul { list-style: none; padding: 0; margin: 24px 0; display: grid; gap: 10px; color: #526a88; font-size: 12px; }.landing-solution-card li,.landing-price-card li { display: flex; gap: 8px; align-items: center; }.landing-solution-card li svg,.landing-price-card li svg { color: var(--lp-blue); flex: 0 0 auto; }.landing-solution-card a,.landing-text-link { color: var(--lp-blue); text-decoration: none; display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 800; }
 .landing-section-soft { background: #f6f9fd; }.landing-centered-heading { text-align: center; max-width: 650px; margin: 0 auto 55px; }.landing-centered-heading p { margin-top: 18px; }.landing-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 42px; }.landing-step { display: flex; gap: 17px; border-top: 1px solid #cfdbeb; padding-top: 18px; }.landing-step > span { color: var(--lp-blue); font-weight: 800; font-size: 11px; }.landing-step h3 { font-size: 16px; margin: 0 0 8px; }.landing-step p { color: var(--lp-muted); font-size: 13px; line-height: 1.6; margin: 0; }
 .landing-price-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 17px; }.landing-price-card { border: 1px solid #dbe5f1; border-radius: 13px; padding: 30px; position: relative; }.landing-price-card > span { color: #617793; font-size: 12px; font-weight: 800; }.landing-price-card strong { display: block; color: var(--lp-ink); font-size: 35px; letter-spacing: -.06em; margin: 16px 0 2px; }.landing-price-card strong small { font-size: 12px; color: #70839d; letter-spacing: 0; }.landing-price-card del { color: #93a1b2; font-size: 11px; }.landing-price-card ul { padding-top: 20px; border-top: 1px solid #edf1f6; }.landing-price-card li { color: #526680; }.landing-price-button { display: flex; justify-content: center; align-items: center; gap: 7px; text-decoration: none; border: 1px solid #b9cde8; color: var(--lp-blue); border-radius: 8px; font-size: 12px; font-weight: 800; padding: 12px; }.price-featured { border: 2px solid var(--lp-blue); box-shadow: 0 16px 35px #0756b817; transform: translateY(-10px); }.price-featured .landing-price-button { color: white; background: var(--lp-blue); }.price-badge { position: absolute; top: -13px; right: 20px; color: white; background: var(--lp-blue); padding: 6px 11px; border-radius: 20px; font-size: 9px; font-weight: 800; }.price-custom { font-size: 30px !important; margin-bottom: 9px !important; }.landing-price-note { color: #8a99ac; font-size: 11px; text-align: center; margin-top: 28px; }
-.landing-faq-section { background: #f6f9fd; }.landing-faq-layout { display: grid; grid-template-columns: .75fr 1.25fr; gap: 100px; }.landing-faq-layout p { margin: 20px 0 25px; }.landing-faq-list details { border-bottom: 1px solid #d7e1ee; padding: 20px 0; }.landing-faq-list summary { cursor: pointer; font-size: 14px; font-weight: 750; list-style: none; }.landing-faq-list summary::-webkit-details-marker { display: none; }.landing-faq-list summary:after { content: '+'; float: right; color: var(--lp-blue); font-size: 18px; }.landing-faq-list details[open] summary:after { content: 'âˆ’'; }.landing-faq-list details p { color: var(--lp-muted); font-size: 13px; line-height: 1.6; margin: 13px 25px 0 0; }.landing-cta { background: var(--lp-blue-dark); color: white; padding: 75px 0; }.landing-cta-inner { display: flex; justify-content: space-between; gap: 30px; align-items: center; }.landing-cta h2 { font-size: clamp(34px, 4vw, 50px); letter-spacing: -.06em; line-height: 1.03; margin: 14px 0; }.landing-cta p { color: #b8cdea; margin: 0; }.landing-kicker-light { color: #83b8fa; }.landing-button-light { background: white; color: var(--lp-blue-dark); white-space: nowrap; }.landing-footer { background: #061d3d; color: #91a9ca; }.landing-footer-inner { min-height: 100px; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 10px; }.landing-footer .landing-brand { color: white; }.landing-footer .landing-brand small { color: #7691b5; }
+.landing-faq-section { background: #f6f9fd; }.landing-faq-layout { display: grid; grid-template-columns: .75fr 1.25fr; gap: 100px; }.landing-faq-layout p { margin: 20px 0 25px; }.landing-faq-list details { border-bottom: 1px solid #d7e1ee; padding: 20px 0; }.landing-faq-list summary { cursor: pointer; font-size: 14px; font-weight: 750; list-style: none; }.landing-faq-list summary::-webkit-details-marker { display: none; }.landing-faq-list summary:after { content: '+'; float: right; color: var(--lp-blue); font-size: 18px; }.landing-faq-list details[open] summary:after { content: '−'; }.landing-faq-list details p { color: var(--lp-muted); font-size: 13px; line-height: 1.6; margin: 13px 25px 0 0; }.landing-cta { background: var(--lp-blue-dark); color: white; padding: 75px 0; }.landing-cta-inner { display: flex; justify-content: space-between; gap: 30px; align-items: center; }.landing-cta h2 { font-size: clamp(34px, 4vw, 50px); letter-spacing: -.06em; line-height: 1.03; margin: 14px 0; }.landing-cta p { color: #b8cdea; margin: 0; }.landing-kicker-light { color: #83b8fa; }.landing-button-light { background: white; color: var(--lp-blue-dark); white-space: nowrap; }.landing-footer { background: #061d3d; color: #91a9ca; }.landing-footer-inner { min-height: 100px; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 10px; }.landing-footer .landing-brand { color: white; }.landing-footer .landing-brand small { color: #7691b5; }
 @media (max-width: 800px) { .landing-nav { height: 68px; }.landing-menu-button { display: block; }.landing-nav-links { display: none; position: absolute; top: 62px; left: 0; right: 0; background: white; border: 1px solid var(--lp-line); border-radius: 10px; padding: 15px; box-shadow: 0 15px 30px #082d5b1c; flex-direction: column; align-items: stretch; gap: 3px; }.landing-nav-links.is-open { display: flex; }.landing-nav-links a { padding: 12px; }.landing-hero { grid-template-columns: 1fr; gap: 25px; padding-top: 48px; }.landing-hero-visual { min-height: 400px; }.landing-hero h1 { font-size: 56px; }.landing-proof-inner { flex-wrap: wrap; }.landing-proof-inner span { width: 100%; }.landing-section { padding-top: 80px; padding-bottom: 80px; }.landing-section-heading,.landing-faq-layout { grid-template-columns: 1fr; gap: 25px; }.landing-solution-grid,.landing-price-grid { grid-template-columns: 1fr; }.landing-steps { grid-template-columns: 1fr; gap: 27px; }.price-featured { transform: none; }.landing-cta-inner,.landing-footer-inner { flex-direction: column; align-items: flex-start; }.landing-footer-inner { padding: 28px 0; }.landing-actions { align-items: flex-start; flex-direction: column; gap: 12px; } }
 @media (max-width: 420px) { .landing-container,.landing-nav { width: min(100% - 28px, 1160px); }.landing-hero h1 { font-size: 48px; }.landing-trust-row span { display: none; }.landing-trust-row { gap: 8px 14px; }.landing-dashboard { padding: 13px; }.landing-solution-card,.landing-price-card { padding: 25px; } }
 .landing-footer-contact { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: flex-end; }.landing-footer-contact a { color: #c1d5ee; text-decoration: none; }.landing-footer-contact a:hover { color: white; }
@@ -27,11 +27,11 @@
 @media (max-width: 760px) { .landing-real-document-grid { grid-template-columns: 1fr; }.landing-photo-card,.landing-photo-card:nth-child(even) { transform: none; } }
 
 /* =========================================================================
-   Pj018 â€” Gate #21: Bloco B â€” Print CSS & Document Layout Foundation (V0.2-DOC2)
-   Regras canÃ³nicas de composiÃ§Ã£o A4, @page, quebra de pÃ¡gina e visualizaÃ§Ã£o.
+   Pj018 — Gate #21: Bloco B — Print CSS & Document Layout Foundation (V0.2-DOC2)
+   Regras canónicas de composição A4, @page, quebra de página e visualização.
    ========================================================================= */
 
-/* DimensÃµes canÃ³nicas A4 na tela (96 DPI standard) */
+/* Dimensões canónicas A4 na tela (96 DPI standard) */
 :root {
   --a4-portrait-width: 794px;
   --a4-portrait-height: 1123px;
@@ -41,13 +41,13 @@
   --a4-margin-h: 10mm;
 }
 
-/* 1. Regra base fallback @page para impressÃ£o no browser (sobrescrita dinamicamente pelo DocumentPageLayout) */
+/* 1. Regra base fallback @page para impressão no browser (sobrescrita dinamicamente pelo DocumentPageLayout) */
 @page {
   size: A4;
   margin: 12mm 10mm 12mm 10mm;
 }
 
-/* 2. Regras de visualizaÃ§Ã£o em tela para folha A4 */
+/* 2. Regras de visualização em tela para folha A4 */
 @media screen {
   .document-sheet {
     box-sizing: border-box;
@@ -68,9 +68,9 @@
   }
 }
 
-/* 3. Regras de impressÃ£o estrita (@media print) */
+/* 3. Regras de impressão estrita (@media print) */
 @media print {
-  /* ForÃ§ar renderizaÃ§Ã£o exacta de cores de fundo e bordas */
+  /* Forçar renderização exacta de cores de fundo e bordas */
   *,
   *::before,
   *::after {
@@ -79,7 +79,7 @@
     color-adjust: exact !important;
   }
 
-  /* Ocultar elementos exclusivos de interface grÃ¡fica */
+  /* Ocultar elementos exclusivos de interface gráfica */
   .no-print,
   header:not(.document-header-section),
   nav,
@@ -94,7 +94,7 @@
     visibility: hidden !important;
   }
 
-  /* Reset de layout da janela para impressÃ£o pura do documento */
+  /* Reset de layout da janela para impressão pura do documento */
   html,
   body {
     width: 100% !important;
@@ -106,7 +106,7 @@
     overflow: visible !important;
   }
 
-  /* Isolamento do documento imprimÃ­vel */
+  /* Isolamento do documento imprimível */
   body * {
     visibility: hidden;
   }
@@ -130,7 +130,7 @@
     overflow: visible !important;
   }
 
-  /* Neutralizar qualquer zoom visual da interface durante a impressÃ£o fÃ­sica */
+  /* Neutralizar qualquer zoom visual da interface durante a impressão física */
   .document-zoom-wrapper,
   .document-preview-stage {
     transform: none !important;
@@ -141,7 +141,7 @@
     border: none !important;
   }
 
-  /* RepetiÃ§Ã£o visual obrigatÃ³ria de cabeÃ§alhos de tabela entre pÃ¡ginas */
+  /* Repetição visual obrigatória de cabeçalhos de tabela entre páginas */
   table.document-table {
     width: 100% !important;
     border-collapse: collapse !important;
@@ -160,7 +160,7 @@
     page-break-inside: auto;
   }
 
-  /* PrevenÃ§Ã£o de quebra indevida no meio de blocos crÃ­ticos */
+  /* Prevenção de quebra indevida no meio de blocos críticos */
   .avoid-page-break,
   .document-header-section,
   .document-institutional-section,
@@ -172,7 +172,7 @@
     page-break-inside: avoid !important;
   }
 
-  /* Quebras de pÃ¡gina controladas */
+  /* Quebras de página controladas */
   .page-break-before {
     break-before: page !important;
     page-break-before: always !important;
@@ -185,7 +185,7 @@
 }
 
 
-/* Lista nominal A4: manter a aplicaÃ§Ã£o protegida da impressÃ£o fora do documento selecionado. */
+/* Lista nominal A4: manter a aplicação protegida da impressão fora do documento selecionado. */
 @media print {
   @page { size: A4 portrait; margin: 12mm; }
   body * { visibility: hidden !important; }
@@ -219,12 +219,12 @@
 }
 
 
-/* UX-04: impressÃ£o isolada das listas de PlanificaÃ§Ã£o e SumÃ¡rios. */
+/* UX-04: impressão isolada das listas de Planificação e Sumários. */
 @media print {
   @page {
     size: A4 portrait;
     margin: 12mm 12mm 20mm;
-    @bottom-right { content: 'PÃ¡gina ' counter(page) ' de ' counter(pages); font-size: 7pt; color: #475569; }
+    @bottom-right { content: 'Página ' counter(page) ' de ' counter(pages); font-size: 7pt; color: #475569; }
   }
   body * { visibility: hidden !important; }
   :is(#pedagogy-list-print, #pedagogy-summaries-list-print), :is(#pedagogy-list-print, #pedagogy-summaries-list-print) * { visibility: visible !important; }
@@ -247,7 +247,7 @@
   :is(#pedagogy-list-print, #pedagogy-summaries-list-print) .print-heading { border-bottom: 0 !important; padding-bottom: 0 !important; margin-bottom: 4mm !important; text-align: center !important; }
   :is(#pedagogy-list-print, #pedagogy-summaries-list-print) .print-institutional-footer { margin-top: 4mm !important; padding-top: 2mm !important; border-top: 0.5pt solid #cbd5e1 !important; text-align: center !important; font-size: 7pt !important; }
 
-  /* DOC-10: tabela prÃ³pria, encerramento e rodapÃ© real da lista de planificaÃ§Ãµes. */
+  /* DOC-10: tabela própria, encerramento e rodapé real da lista de planificações. */
   #pedagogy-list-print th:nth-child(2), #pedagogy-list-print td:nth-child(2) { width: 25mm !important; }
   #pedagogy-list-print th:nth-child(3), #pedagogy-list-print td:nth-child(3) { width: 22mm !important; }
   #pedagogy-list-print th:nth-child(4), #pedagogy-list-print td:nth-child(4) { width: 28mm !important; }
@@ -263,7 +263,7 @@
 }
 
 
-/* ImpressÃ£o do registo individual de SumÃ¡rio (inclui IniciaÃ§Ã£o qualitativa). */
+/* Impressão do registo individual de Sumário (inclui Iniciação qualitativa). */
 @media print {
   body * { visibility: hidden !important; }
   #pedagogy-record-print, #pedagogy-record-print * { visibility: visible !important; }
