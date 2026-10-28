@@ -43,6 +43,7 @@ export function LandingPage() {
             
           </div>
           <div className="landing-trust-row"><ShieldCheck size={17} /> Contexto autorizado <span /> <ClipboardCheck size={17} /> Documentos organizados <span /> <Users size={17} /> Apoio por WhatsApp</div>
+          <div className="landing-coverage"><GraduationCap size={16} /><span><b>Ensino Primário</b> (inclui Pré-Escolar), <b>I Ciclo</b> e <b>II Ciclo</b></span></div>
         </div>
         <div className="landing-hero-visual" aria-label="Pré-visualização do painel do AvaliPed">
           <div className="landing-glow" />

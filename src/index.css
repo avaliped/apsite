@@ -276,6 +276,9 @@
   #pedagogy-record-print .print-issued { margin-top: 5mm !important; font-size: 9pt !important; }
 }
 
+.landing-coverage { display: inline-flex; align-items: center; gap: 9px; margin-top: 18px; padding: 10px 14px; border-radius: 10px; background: #eaf3ff; border: 1px solid #c9dcf5; color: #1d4f8f; font-size: 13px; line-height: 1.4; }
+.landing-coverage svg { color: var(--lp-blue); flex: 0 0 auto; }
+.landing-coverage b { color: var(--lp-ink); }
 .landing-price-card del { display: inline-block; font-size: 15px; font-weight: 800; color: #a52c3a; background: #fff0f1; border: 1px solid #f3c3c8; border-radius: 6px; padding: 8px 10px; margin: 4px 0 6px; line-height: 1.35; text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: #b42332; }
 .price-support-label { color: #1d5cac; font-size: 10px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-top: 16px; }
 .landing-price-card li { align-items: flex-start; line-height: 1.4; }
