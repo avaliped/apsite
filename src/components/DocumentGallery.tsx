@@ -4,6 +4,8 @@ import miniPautaParcial from '../assets/documentos/mini-pauta-parcial.png';
 import estatisticaTrimestral from '../assets/documentos/estatistica-trimestral.png';
 import miniPautaConsolidada from '../assets/documentos/mini-pauta-consolidada.png';
 import boletimConsolidado from '../assets/documentos/boletim-estatistico-consolidado.png';
+import actaCoordenacao from '../assets/documentos/acta-coordenacao-lingua-portuguesa.jpg';
+import justificativoFaltas from '../assets/documentos/justificativo-de-faltas.png';
 
 const documentos = [
   {
@@ -25,6 +27,16 @@ const documentos = [
     titulo: 'Boletim Estatístico Consolidado',
     descricao: 'Documento estatístico global dos três trimestres, com contagens anuais por sexo.',
     imagem: boletimConsolidado,
+  },
+  {
+    titulo: 'Acta da Coordenação da Disciplina',
+    descricao: 'Acta com presenças, objectivos, temas por semana e acções importantes da disciplina.',
+    imagem: actaCoordenacao,
+  },
+  {
+    titulo: 'Justificativo de Faltas',
+    descricao: 'Pedido de justificação de faltas do professor, pronto para imprimir ou guardar em PDF.',
+    imagem: justificativoFaltas,
   },
 ];
 
