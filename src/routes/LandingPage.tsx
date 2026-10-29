@@ -16,7 +16,7 @@ import {
 import { DocumentGallery } from '../components/DocumentGallery';
 
 // Contacto público da pré-venda; pode ser substituído por VITE_WHATSAPP_NUMBER no deploy.
-const whatsappNumber = ((import.meta.env.VITE_WHATSAPP_NUMBER as string | undefined) || '244951471020').replace(/\D/g, '');
+const whatsappNumber = ((import.meta.env.VITE_WHATSAPP_NUMBER as string | undefined) || '244972587167').replace(/\D/g, '');
 const whatsappText = encodeURIComponent('Olá, quero conhecer a pré-venda do AvaliPed.');
 
 function WhatsAppLink({ children, className = '', onClick }: { children: ReactNode; className?: string; onClick?: () => void }) {
@@ -69,7 +69,7 @@ export function LandingPage() {
 
       <section id="pre-venda" className="landing-cta"><div className="landing-container landing-cta-inner"><div><div className="landing-kicker landing-kicker-light">Primeiro grupo de fundadores</div><h2>Organize o seu trabalho<br />com mais clareza.</h2><p>Receba a demonstração e as condições completas da pré-venda.</p></div><WhatsAppLink className="landing-button landing-button-light"><MessageCircle size={18} /> Quero receber a demonstração <ArrowRight size={17} /></WhatsAppLink></div></section>
 
-      <footer className="landing-footer"><div className="landing-container landing-footer-inner"><a href="#inicio" className="landing-brand"><span className="landing-brand-mark"><GraduationCap size={20} /></span><span><strong>Avali</strong>Ped<small>Gestão avaliativa</small></span></a><p>Menos retrabalho. Mais controlo sobre o trabalho avaliativo.</p><div className="landing-footer-contact"><a href="mailto:avaliped@gmail.com">avaliped@gmail.com</a><a href="https://wa.me/244951471020" target="_blank" rel="noreferrer">WhatsApp: 951 471 020</a><span>© {new Date().getFullYear()} AvaliPed · Angola</span></div></div></footer>
+      <footer className="landing-footer"><div className="landing-container landing-footer-inner"><a href="#inicio" className="landing-brand"><span className="landing-brand-mark"><GraduationCap size={20} /></span><span><strong>Avali</strong>Ped<small>Gestão avaliativa</small></span></a><p>Menos retrabalho. Mais controlo sobre o trabalho avaliativo.</p><div className="landing-footer-contact"><a href="mailto:avaliped@gmail.com">avaliped@gmail.com</a><a href="https://wa.me/244972587167" target="_blank" rel="noreferrer">WhatsApp: 972 587 167</a><span>© {new Date().getFullYear()} AvaliPed · Angola</span></div></div></footer>
     </main>
   );
 }
